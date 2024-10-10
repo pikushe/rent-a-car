@@ -12,10 +12,20 @@ const config: Config = {
 			center: true,
 			padding: "0.1rem",
 			screens: {
-				"2xl": "1800px",
+				"2xl": "1400px",
 			},
 		},
 		extend: {
+			backgroundImage: {
+				'home-page-card-one': "url('/public/home/card.png')",
+				//'footer-texture': "url('/img/footer-texture.png')",
+			},
+			padding: {
+				'9px': '9px',
+			},
+			fontSize: {
+				'4xl': '2rem'
+			},
 			colors: {
 				primary: {
 					DEFAULT: '#3563E9',
